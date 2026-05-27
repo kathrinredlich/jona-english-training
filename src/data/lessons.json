@@ -70,6 +70,29 @@
         "emoji": "🦆"
       }
     ],
+    "spellingWordIds": ["animals-cat", "animals-dog", "animals-bird", "animals-duck"],
+    "fillBlank": [
+      {
+        "prompt": "The ___ sleeps on the sofa.",
+        "answer": "cat",
+        "choices": ["cat", "fish", "horse", "duck"]
+      },
+      {
+        "prompt": "Our ___ wags its tail.",
+        "answer": "dog",
+        "choices": ["dog", "bird", "bear", "duck"]
+      },
+      {
+        "prompt": "A ___ sings in the tree.",
+        "answer": "bird",
+        "choices": ["fish", "bird", "rabbit", "cat"]
+      },
+      {
+        "prompt": "The ___ says quack.",
+        "answer": "duck",
+        "choices": ["duck", "horse", "bear", "fish"]
+      }
+    ],
     "quiz": [
       {
         "wordId": "animals-cat",
@@ -192,6 +215,29 @@
         "emoji": "❓"
       }
     ],
+    "spellingWordIds": ["school-book", "school-pen", "school-friend", "school-homework"],
+    "fillBlank": [
+      {
+        "prompt": "I open my English ___.",
+        "answer": "book",
+        "choices": ["book", "desk", "pen", "friend"]
+      },
+      {
+        "prompt": "I write with a blue ___.",
+        "answer": "pen",
+        "choices": ["lesson", "pen", "teacher", "homework"]
+      },
+      {
+        "prompt": "My ___ sits next to me.",
+        "answer": "friend",
+        "choices": ["friend", "question", "desk", "book"]
+      },
+      {
+        "prompt": "I finish my ___ after dinner.",
+        "answer": "homework",
+        "choices": ["teacher", "book", "homework", "desk"]
+      }
+    ],
     "quiz": [
       {
         "wordId": "school-book",
@@ -312,6 +358,29 @@
         "definition": "A small sweet snack.",
         "example": "She baked a chocolate cookie.",
         "emoji": "🍪"
+      }
+    ],
+    "spellingWordIds": ["food-apple", "food-bread", "food-milk", "food-cookie"],
+    "fillBlank": [
+      {
+        "prompt": "I eat an ___ for a snack.",
+        "answer": "apple",
+        "choices": ["apple", "rice", "soup", "cheese"]
+      },
+      {
+        "prompt": "We buy fresh ___ on Saturday.",
+        "answer": "bread",
+        "choices": ["water", "bread", "milk", "cookie"]
+      },
+      {
+        "prompt": "I drink ___ in the morning.",
+        "answer": "milk",
+        "choices": ["soup", "rice", "milk", "apple"]
+      },
+      {
+        "prompt": "She baked a chocolate ___.",
+        "answer": "cookie",
+        "choices": ["water", "bread", "rice", "cookie"]
       }
     ],
     "quiz": [

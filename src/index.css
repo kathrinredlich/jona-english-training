@@ -1,9 +1,34 @@
 :root {
   font-family: 'Avenir Next', 'Segoe UI', system-ui, sans-serif;
+  font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
-  color: #1e3a5f;
-  background: linear-gradient(160deg, #e8f4fc 0%, #f5f0ff 55%, #fff8ee 100%);
+
+  /* Blue palette */
+  --blue-deep: #0a2744;
+  --blue-dark: #123d6b;
+  --blue-heading: #1a5082;
+  --blue-body: #2f6a9a;
+  --blue-muted: #5a8ab8;
+  --blue-soft: #8eb8dc;
+  --blue-border: #a8d4f0;
+  --blue-border-light: #c8e6fa;
+  --blue-surface: #e8f4fc;
+  --blue-surface-alt: #dceefb;
+  --blue-tint: #f0f8ff;
+  --blue-accent: #1d7ec8;
+  --blue-accent-hover: #1565a8;
+  --blue-bright: #3ba3e8;
+  --blue-glow: #6ec5f5;
+
+  color: var(--blue-heading);
+  background: linear-gradient(
+    165deg,
+    #d4ebfa 0%,
+    #e8f4fc 35%,
+    #f0f8ff 70%,
+    #dceefb 100%
+  );
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

@@ -2,7 +2,8 @@
 
 A simple English practice app for a young learner (~2 years of school English). Built from the Notion PRD with **local lesson data only**—no external APIs.
 
-- **PRD:** [Jona’s English Training (Notion)](https://www.notion.so/36dda74ef045804a8c7ce8e814483804)
+- **PRD (local):** [prd.md](./prd.md)
+- **PRD (Notion):** [Jona’s English Training](https://www.notion.so/36dda74ef045804a8c7ce8e814483804)
 
 ## Quick start
 
@@ -11,12 +12,13 @@ npm install
 npm run dev
 ```
 
-## Features (MVP)
+## Features
 
 - 3 lessons (Animals, At school, Food & snacks) with 8 words each
-- Tap-through word cards with optional German hints
-- Multiple-choice quiz with gentle retry on wrong answers
-- Progress and practice-day streak in `localStorage`
+- Tap-through word cards with optional German hints (saved in settings)
+- Multiple-choice quiz, spelling practice, and fill-in-the-blank sentences
+- Gentle retry on wrong answers; optional sound effects (Web Audio, no external APIs)
+- Progress, practice-day streak, and mid-lesson resume via `sessionStorage`
 
 ## Content
 

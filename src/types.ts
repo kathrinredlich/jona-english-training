@@ -14,6 +14,12 @@ export type QuizItem = {
   correctIndex: number;
 };
 
+export type FillBlankItem = {
+  prompt: string;
+  answer: string;
+  choices: string[];
+};
+
 export type Lesson = {
   id: string;
   title: string;
@@ -21,6 +27,8 @@ export type Lesson = {
   emoji: string;
   words: Word[];
   quiz: QuizItem[];
+  fillBlank: FillBlankItem[];
+  spellingWordIds: string[];
 };
 
 export type LessonProgress = {
@@ -32,4 +40,19 @@ export type LessonProgress = {
 export type AppProgress = {
   lessons: Record<string, LessonProgress>;
   streakDays: string[];
+};
+
+export type AppSettings = {
+  showGermanHints: boolean;
+  soundEnabled: boolean;
+};
+
+export type LessonSession = {
+  lessonId: string;
+  screen: 'learn' | 'quiz' | 'spell' | 'fill';
+  wordIndex: number;
+  quizIndex: number;
+  quizScore: number;
+  spellIndex: number;
+  fillIndex: number;
 };

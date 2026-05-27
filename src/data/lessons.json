@@ -1,0 +1,368 @@
+[
+  {
+    "id": "animals",
+    "title": "Animals",
+    "description": "Friendly animals you might read about in stories.",
+    "emoji": "🐾",
+    "words": [
+      {
+        "id": "animals-cat",
+        "english": "cat",
+        "hint": "Katze",
+        "definition": "A small pet animal that says meow.",
+        "example": "The cat sleeps on the sofa.",
+        "emoji": "🐱"
+      },
+      {
+        "id": "animals-dog",
+        "english": "dog",
+        "hint": "Hund",
+        "definition": "A pet that likes to run and play.",
+        "example": "Our dog wags its tail.",
+        "emoji": "🐕"
+      },
+      {
+        "id": "animals-bird",
+        "english": "bird",
+        "hint": "Vogel",
+        "definition": "An animal with wings that can fly.",
+        "example": "A bird sings in the tree.",
+        "emoji": "🐦"
+      },
+      {
+        "id": "animals-fish",
+        "english": "fish",
+        "hint": "Fisch",
+        "definition": "An animal that lives in water.",
+        "example": "We saw a fish in the lake.",
+        "emoji": "🐟"
+      },
+      {
+        "id": "animals-horse",
+        "english": "horse",
+        "hint": "Pferd",
+        "definition": "A big animal people sometimes ride.",
+        "example": "The horse runs in the field.",
+        "emoji": "🐴"
+      },
+      {
+        "id": "animals-rabbit",
+        "english": "rabbit",
+        "hint": "Kaninchen",
+        "definition": "A small animal with long ears.",
+        "example": "The rabbit hops in the garden.",
+        "emoji": "🐰"
+      },
+      {
+        "id": "animals-bear",
+        "english": "bear",
+        "hint": "Bär",
+        "definition": "A large wild animal with thick fur.",
+        "example": "The bear looks for food.",
+        "emoji": "🐻"
+      },
+      {
+        "id": "animals-duck",
+        "english": "duck",
+        "hint": "Ente",
+        "definition": "A bird that swims on water.",
+        "example": "The duck says quack.",
+        "emoji": "🦆"
+      }
+    ],
+    "quiz": [
+      {
+        "wordId": "animals-cat",
+        "prompt": "Which word means a small pet that says meow?",
+        "choices": ["cat", "fish", "horse", "duck"],
+        "correctIndex": 0
+      },
+      {
+        "wordId": "animals-dog",
+        "prompt": "What is a pet that likes to run and play?",
+        "choices": ["bird", "dog", "bear", "rabbit"],
+        "correctIndex": 1
+      },
+      {
+        "wordId": "animals-bird",
+        "prompt": "Which animal has wings and can fly?",
+        "choices": ["fish", "horse", "bird", "cat"],
+        "correctIndex": 2
+      },
+      {
+        "wordId": "animals-fish",
+        "prompt": "What lives in water?",
+        "choices": ["duck", "rabbit", "bear", "fish"],
+        "correctIndex": 3
+      },
+      {
+        "wordId": "animals-horse",
+        "prompt": "People sometimes ride this big animal.",
+        "choices": ["horse", "cat", "bird", "fish"],
+        "correctIndex": 0
+      },
+      {
+        "wordId": "animals-rabbit",
+        "prompt": "Which animal has long ears and hops?",
+        "choices": ["bear", "rabbit", "dog", "duck"],
+        "correctIndex": 1
+      },
+      {
+        "wordId": "animals-bear",
+        "prompt": "A large wild animal with thick fur is a …",
+        "choices": ["duck", "fish", "bear", "cat"],
+        "correctIndex": 2
+      },
+      {
+        "wordId": "animals-duck",
+        "prompt": "Which bird swims and says quack?",
+        "choices": ["horse", "bird", "rabbit", "duck"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "title": "At school",
+    "description": "Words you hear in the classroom.",
+    "emoji": "🏫",
+    "words": [
+      {
+        "id": "school-book",
+        "english": "book",
+        "hint": "Buch",
+        "definition": "You read stories and learn from it.",
+        "example": "I open my English book.",
+        "emoji": "📖"
+      },
+      {
+        "id": "school-pen",
+        "english": "pen",
+        "hint": "Stift",
+        "definition": "You write with it.",
+        "example": "I write with a blue pen.",
+        "emoji": "🖊️"
+      },
+      {
+        "id": "school-desk",
+        "english": "desk",
+        "hint": "Tisch",
+        "definition": "A table where you sit and work.",
+        "example": "My desk is near the window.",
+        "emoji": "🪑"
+      },
+      {
+        "id": "school-teacher",
+        "english": "teacher",
+        "hint": "Lehrer/in",
+        "definition": "A person who helps you learn.",
+        "example": "The teacher explains the lesson.",
+        "emoji": "👩‍🏫"
+      },
+      {
+        "id": "school-friend",
+        "english": "friend",
+        "hint": "Freund/in",
+        "definition": "Someone you like and play with.",
+        "example": "My friend sits next to me.",
+        "emoji": "🤝"
+      },
+      {
+        "id": "school-lesson",
+        "english": "lesson",
+        "hint": "Unterricht",
+        "definition": "A time when you learn something new.",
+        "example": "We have an English lesson today.",
+        "emoji": "📝"
+      },
+      {
+        "id": "school-homework",
+        "english": "homework",
+        "hint": "Hausaufgaben",
+        "definition": "Work you do at home after school.",
+        "example": "I finish my homework after dinner.",
+        "emoji": "📚"
+      },
+      {
+        "id": "school-question",
+        "english": "question",
+        "hint": "Frage",
+        "definition": "Words you say when you want an answer.",
+        "example": "I ask a question in class.",
+        "emoji": "❓"
+      }
+    ],
+    "quiz": [
+      {
+        "wordId": "school-book",
+        "prompt": "What do you read to learn?",
+        "choices": ["book", "desk", "pen", "friend"],
+        "correctIndex": 0
+      },
+      {
+        "wordId": "school-pen",
+        "prompt": "You write with a …",
+        "choices": ["lesson", "pen", "teacher", "homework"],
+        "correctIndex": 1
+      },
+      {
+        "wordId": "school-desk",
+        "prompt": "Where do you sit and work in class?",
+        "choices": ["friend", "question", "desk", "book"],
+        "correctIndex": 2
+      },
+      {
+        "wordId": "school-teacher",
+        "prompt": "Who helps you learn?",
+        "choices": ["homework", "pen", "friend", "teacher"],
+        "correctIndex": 3
+      },
+      {
+        "wordId": "school-friend",
+        "prompt": "Someone you like and play with is a …",
+        "choices": ["friend", "desk", "lesson", "book"],
+        "correctIndex": 0
+      },
+      {
+        "wordId": "school-lesson",
+        "prompt": "A time when you learn something new is a …",
+        "choices": ["pen", "lesson", "homework", "question"],
+        "correctIndex": 1
+      },
+      {
+        "wordId": "school-homework",
+        "prompt": "Work you do at home is …",
+        "choices": ["teacher", "book", "homework", "desk"],
+        "correctIndex": 2
+      },
+      {
+        "wordId": "school-question",
+        "prompt": "What do you ask when you want an answer?",
+        "choices": ["friend", "lesson", "pen", "question"],
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "food",
+    "title": "Food & snacks",
+    "description": "Yummy words for meals and treats.",
+    "emoji": "🍎",
+    "words": [
+      {
+        "id": "food-apple",
+        "english": "apple",
+        "hint": "Apfel",
+        "definition": "A round fruit, often red or green.",
+        "example": "I eat an apple for a snack.",
+        "emoji": "🍎"
+      },
+      {
+        "id": "food-bread",
+        "english": "bread",
+        "hint": "Brot",
+        "definition": "Food made from flour, used for sandwiches.",
+        "example": "We buy fresh bread on Saturday.",
+        "emoji": "🍞"
+      },
+      {
+        "id": "food-milk",
+        "english": "milk",
+        "hint": "Milch",
+        "definition": "A white drink from cows.",
+        "example": "I drink milk in the morning.",
+        "emoji": "🥛"
+      },
+      {
+        "id": "food-water",
+        "english": "water",
+        "hint": "Wasser",
+        "definition": "A clear drink you need every day.",
+        "example": "Please drink more water.",
+        "emoji": "💧"
+      },
+      {
+        "id": "food-cheese",
+        "english": "cheese",
+        "hint": "Käse",
+        "definition": "A food made from milk, often yellow.",
+        "example": "I like cheese on my bread.",
+        "emoji": "🧀"
+      },
+      {
+        "id": "food-rice",
+        "english": "rice",
+        "hint": "Reis",
+        "definition": "Small white grains you eat with meals.",
+        "example": "We cook rice for dinner.",
+        "emoji": "🍚"
+      },
+      {
+        "id": "food-soup",
+        "english": "soup",
+        "hint": "Suppe",
+        "definition": "Hot liquid food in a bowl.",
+        "example": "Tomato soup is warm and tasty.",
+        "emoji": "🍲"
+      },
+      {
+        "id": "food-cookie",
+        "english": "cookie",
+        "hint": "Keks",
+        "definition": "A small sweet snack.",
+        "example": "She baked a chocolate cookie.",
+        "emoji": "🍪"
+      }
+    ],
+    "quiz": [
+      {
+        "wordId": "food-apple",
+        "prompt": "Which fruit is round and often red?",
+        "choices": ["apple", "rice", "soup", "cheese"],
+        "correctIndex": 0
+      },
+      {
+        "wordId": "food-bread",
+        "prompt": "Sandwiches are made with …",
+        "choices": ["water", "bread", "milk", "cookie"],
+        "correctIndex": 1
+      },
+      {
+        "wordId": "food-milk",
+        "prompt": "A white drink from cows is …",
+        "choices": ["soup", "rice", "milk", "apple"],
+        "correctIndex": 2
+      },
+      {
+        "wordId": "food-water",
+        "prompt": "What clear drink do you need every day?",
+        "choices": ["cheese", "cookie", "bread", "water"],
+        "correctIndex": 3
+      },
+      {
+        "wordId": "food-cheese",
+        "prompt": "Food made from milk, often yellow:",
+        "choices": ["cheese", "rice", "apple", "soup"],
+        "correctIndex": 0
+      },
+      {
+        "wordId": "food-rice",
+        "prompt": "Small white grains for dinner:",
+        "choices": ["cookie", "rice", "water", "bread"],
+        "correctIndex": 1
+      },
+      {
+        "wordId": "food-soup",
+        "prompt": "Hot liquid food in a bowl is …",
+        "choices": ["milk", "apple", "soup", "cheese"],
+        "correctIndex": 2
+      },
+      {
+        "wordId": "food-cookie",
+        "prompt": "A small sweet snack is a …",
+        "choices": ["water", "bread", "rice", "cookie"],
+        "correctIndex": 3
+      }
+    ]
+  }
+]
